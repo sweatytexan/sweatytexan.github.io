@@ -1,0 +1,85 @@
+#header {
+  background-image: url("img/header_lessons.jpg");
+  background-size: 1300px 100%;
+}
+#headnav{
+  font-family: "Bookman Old Style";
+}
+#nav {
+  list-style-type: none;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#nav-li {
+  display: inline;
+  padding-right: 10px;
+  font-family: "bookman old style";
+  font-weight: bold;
+  font-size: 16px;
+}
+#out {
+  padding-left: 0px;
+  list-style-type: none;
+  padding-top: 10px;
+}
+#out-li {
+  padding-left: 0px;
+  padding-bottom: 2.5px;
+  font-family: "bookman old style";
+  font-weight: bold;
+  font-size: 16px;
+}
+#out-li a:hover {
+  color: white;
+}
+p.lcol {
+    padding-bottom: 2.5px;
+    font-family: "bookman old style";
+    font-size: 16px;
+    text-align: justify;
+}
+#content {
+  padding-top: 15px;
+}
+body {
+  background-color: lightgrey;
+}
+h1 {
+  color: lightgrey;
+  font-family: "Bookman Old Style";
+  font-weight: bold;
+  text-shadow: 3px 3px #204f08;
+}
+a:link.navi {
+  color: #204f08;
+}
+a:hover.navi {
+}
+a:visited.navi {
+  color: black
+}
+a:link.out {
+}
+a:visited.out {
+}
+* {
+  margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -24px;
+}
+.footer {
+    height: 24px;
+}
+.push {
+    height: 24px;
+}
